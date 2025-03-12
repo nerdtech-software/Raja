@@ -1,0 +1,170 @@
+.team-current-theme1 {
+  position: relative;
+  margin-bottom: 30px;
+}
+.team-current-theme1 .inner-box {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #c1c1c1;
+  transition: all 300ms ease;
+}
+body.tm-dark-layout .team-current-theme1 .inner-box {
+  border-color: #222;
+}
+.team-current-theme1 .inner-box:hover:before {
+  background-color: var(--headings-color);
+}
+body.tm-dark-layout .team-current-theme1 .inner-box:hover:before {
+  background-color: var(--theme-color-light);
+}
+.team-current-theme1 .inner-box:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 314px;
+  background-color: rgb(76, 8, 8);
+  clip-path: polygon(44% 0, 100% 0, 56% 100%, 0% 100%);
+  transition: all 300ms ease;
+}
+@media (max-width: 767.98px) {
+  .team-current-theme1 .inner-box:before {
+    clip-path: polygon(44% 0, 100% 0, 70% 100%, 0% 100%);
+  }
+}
+@media (max-width: 575.98px) {
+  .team-current-theme1 .inner-box:before {
+    display: none;
+  }
+}
+.team-current-theme1 .inner-box:hover {
+  box-shadow: -10px 21px 10px rgba(4, 4, 4, 0.05);
+}
+.team-current-theme1 .inner-box:hover .image img {
+  transform: scale(1.1);
+}
+.team-current-theme1 .inner-box .image {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 0;
+  clip-path: polygon(35% 0, 100% 0, 64.5% 100%, 0% 100%);
+  height: 270px;
+}
+@media (max-width: 575.98px) {
+  .team-current-theme1 .inner-box .image {
+    clip-path: none;
+  }
+}
+.team-current-theme1 .inner-box .image img {
+  position: relative;
+  width: 100%;
+  transition: all 300ms ease;
+}
+.team-current-theme1 .inner-box .content {
+  position: relative;
+  padding: 33px 40px 40px 40px;
+}
+@media (max-width: 575.98px) {
+  .team-current-theme1 .inner-box .content {
+    padding: 23px 30px 30px 30px;
+  }
+}
+.team-current-theme1 .inner-box .content .team-title {
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+.team-current-theme1 .inner-box .content .team-title a:hover {
+  color: var(--headings-color);
+}
+.team-current-theme1 .inner-box .content .team-subtitle {
+  position: relative;
+  display: block;
+  margin-top: 0;
+  margin-bottom: 12px;
+  transition: all 300ms ease;
+}
+@media (max-width: 575.98px) {
+  .team-current-theme1 .inner-box .content .team-subtitle {
+    font-size: 18px;
+  }
+}
+.team-current-theme1 .inner-box .content .info-btn {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.team-current-theme1 .inner-box .content .info-btn .icon {
+  position: relative;
+  width: 51px;
+  height: 51px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 24px;
+  margin-left: 15px;
+  color: var(--text-color-bg-theme-color1);
+  background-color: rgb(76, 8, 8);
+}
+.team-current-theme1 .inner-box .content .info-btn strong {
+  position: relative;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--headings-color);
+}
+.team-current-theme1 .inner-box .content .info-btn strong:hover {
+  text-decoration: underline;
+}
+.team-current-theme1 .inner-box .social-links {
+  position: relative;
+  padding-top: 31px;
+  padding-right: 55px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+@media (max-width: 1199.98px) {
+  .team-current-theme1 .inner-box .social-links {
+    padding-top: 30px;
+    padding-right: 30px;
+  }
+}
+@media (max-width: 767.98px) {
+  .team-current-theme1 .inner-box .social-links {
+    padding-top: 30px;
+    padding-right: 15px;
+  }
+}
+.team-current-theme1 .inner-box .social-links li {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 15px;
+}
+.team-current-theme1 .inner-box .social-links li a {
+  position: relative;
+  display: block;
+  width: 49px;
+  height: 48px;
+  line-height: 48px;
+  font-size: 16px;
+  border: 1px solid #c1c1c1;
+  color: var(--headings-color);
+  background: var(--theme-color-white);
+  text-align: center;
+  transition: all 300ms ease;
+  box-shadow: 0 10px 10px rgba(4, 4, 4, 0.05);
+}
+body.tm-dark-layout .team-current-theme1 .inner-box .social-links li a {
+  border-color: #1d1d1d;
+}
+.team-current-theme1 .inner-box .social-links li a:hover {
+  box-shadow: none;
+  background-color: var(--theme-color2);
+  color: #fff;
+}

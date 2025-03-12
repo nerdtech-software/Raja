@@ -1,0 +1,71 @@
+.tm-contact-list ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.tm-contact-list ul li {
+  clear: both;
+  position: relative;
+  list-style: none;
+  padding-bottom: 0;
+  padding-top: 0;
+  padding-left: 0;
+  margin-bottom: 0;
+  transition: all 0.3s ease;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.tm-contact-list ul li > * {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.tm-contact-list ul li .icon {
+  font-size: 22px;
+  text-align: center;
+  margin-right: 15px;
+  float: left;
+  flex: 0 0 auto;
+  align-self: center;
+  transition: all 0.3s ease;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.tm-contact-list ul li .icon svg {
+  width: 1em;
+  height: 1em;
+  position: relative;
+  display: block;
+}
+.tm-contact-list ul li .icon i {
+  transition: all 0.3s ease;
+}
+.tm-contact-list ul li .prefix {
+  margin-right: 5px;
+}
+.tm-contact-list ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.tm-contact-list.contact-list-round ul li .icon {
+  font-size: 18px;
+  padding: 10px;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  flex: 0 0 50px;
+  border-radius: 50%;
+  background-color: rgb(76, 8, 8);
+  color: #fff;
+  transition: all 0.3s ease;
+}
+.tm-contact-list.contact-list-round ul li .icon i {
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

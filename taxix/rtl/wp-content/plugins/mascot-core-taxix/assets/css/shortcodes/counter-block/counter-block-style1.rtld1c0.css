@@ -1,0 +1,95 @@
+.counter-block-one {
+  margin-bottom: 90px;
+}
+.counter-block-one .inner-box {
+  position: relative;
+  text-align: center;
+}
+.counter-block-one .inner-box:before {
+  content: "";
+  position: absolute;
+  bottom: 35px;
+  left: calc(0% - 120px);
+  width: 26px;
+  height: 54px;
+  background-image: url(../../../images/current-theme/icon-line.png);
+  z-index: 1;
+}
+@media (max-width: 1199.98px) {
+  .counter-block-one .inner-box:before {
+    left: calc(0% - 0px);
+  }
+}
+@media (max-width: 575.98px) {
+  .counter-block-one .inner-box:before {
+    display: none;
+  }
+}
+.counter-block-one .inner-box:hover .icon-box .counter-icon {
+  transform: scaleX(-1);
+}
+.counter-block-one .inner-box .icon-box {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+.counter-block-one .inner-box .icon-box.two:before {
+  left: auto;
+  right: -17px;
+}
+.counter-block-one .inner-box .icon-box.three:before {
+  left: 50%;
+  transform: translate(-50%);
+}
+/* .counter-block-one .inner-box .icon-box:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -7px;
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  background-color: rgb(240, 187, 187);
+} */
+.counter-block-one .inner-box .icon-box .counter-icon {
+  position: relative;
+  display: inline-block;
+  color: var(--headings-color);
+  font-size: 105px;
+  line-height: 1em;
+  transition: all 300ms ease;
+}
+@media (max-width: 575.98px) {
+  .counter-block-one .inner-box .icon-box .counter-icon {
+    font-size: 80px;
+  }
+}
+.counter-block-one .inner-box .counter-one .counter {
+  position: relative;
+  font-size: 70px;
+  line-height: 1em;
+  letter-spacing: 0.04em;
+  color: var(--headings-color);
+  margin-bottom: 10px;
+}
+@media (max-width: 575.98px) {
+  .counter-block-one .inner-box .counter-one .counter {
+    font-size: 60px;
+  }
+}
+.counter-block-one .inner-box .title-wrapper {
+  position: relative;
+  font-size: 20px;
+  line-height: 1em;
+  color: var(--headings-color);
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.funfact-block-style1:last-child .counter-block-one .inner-box:before {
+  display: none;
+}
+
+.conter-block-style1-wrapper:last-child .counter-block-one .inner-box:before {
+  display: none;
+}

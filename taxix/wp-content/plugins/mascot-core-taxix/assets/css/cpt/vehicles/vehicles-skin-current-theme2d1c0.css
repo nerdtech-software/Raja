@@ -1,0 +1,247 @@
+.tm-sc-vehicles .cat-list {
+  list-style: none;
+  margin: 0;
+}
+.tm-sc-vehicles .cat-list li {
+  display: inline;
+  color: #aaa;
+  margin-right: 7px;
+  font-size: 13px;
+}
+.tm-sc-vehicles .cat-list li a {
+  color: #aaa;
+  text-transform: capitalize;
+  transition: all 0.3s ease-in-out;
+}
+.tm-sc-vehicles .cat-list li:last-child span {
+  display: none;
+}
+
+.vehicles-block-style2 {
+  margin-bottom: 30px;
+}
+.vehicles-block-style2 .inner-box {
+  position: relative;
+  border-top: 0;
+  overflow: hidden;
+  background-color: transparent;
+}
+.vehicles-block-style2 .inner-box:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100px;
+  clip-path: polygon(100% 0, 0 100%, 0 0);
+  z-index: 1;
+}
+.vehicles-block-style2 .inner-box:hover .theme-btn {
+  background-color: rgb(76, 8, 8);
+}
+.vehicles-block-style2 .inner-box:hover .content:before {
+  height: 100%;
+}
+.vehicles-block-style2 .inner-box:hover .feature-list li {
+  color: #fff;
+}
+.vehicles-block-style2 .inner-box:hover .feature-list li:nth-child(odd) {
+  background-color: #0f0f0f;
+}
+.vehicles-block-style2 .inner-box:hover .cat li a {
+  color: #fff;
+}
+.vehicles-block-style2 .inner-box:hover .car-name,
+.vehicles-block-style2 .inner-box:hover .city {
+  color: #fff;
+}
+.vehicles-block-style2 .inner-box .image-box {
+  position: relative;
+  z-index: 2;
+}
+.vehicles-block-style2 .inner-box .image-box .image {
+  position: relative;
+  margin-bottom: 0;
+  display: block;
+  overflow: hidden;
+  clip-path: polygon(0 27.5%, 100% 0, 100% 74%, 0 99%);
+}
+.vehicles-block-style2 .inner-box .image-box .image:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.7;
+  background-color: rgb(76, 8, 8);
+  z-index: 1;
+}
+.vehicles-block-style2 .inner-box .image-box .icon-car {
+  position: absolute;
+  bottom: 16px;
+  right: 0;
+  transition: all 300ms ease;
+  z-index: 1;
+  width: 274px;
+  height: 172px;
+}
+.vehicles-block-style2 .inner-box .content {
+  position: relative;
+  padding: 120px 30px 23px 25px;
+  margin-top: -100px;
+  border: 1px solid #cbcbcb;
+  border-top: none;
+  background-color: var(--theme-color-white);
+}
+body.tm-dark-layout .vehicles-block-style2 .inner-box .content {
+  border-color: #222;
+}
+@media (max-width: 1199.98px) {
+  .vehicles-block-style2 .inner-box .content {
+    padding: 120px 15px 20px;
+  }
+}
+@media (max-width: 575.98px) {
+  .vehicles-block-style2 .inner-box .content {
+    padding: 120px 10px 15px;
+  }
+}
+.vehicles-block-style2 .inner-box .content:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background-color: var(--theme-color2);
+  transition: all 300ms ease;
+}
+.vehicles-block-style2 .inner-box .car-detail {
+  padding-top: 10px;
+  padding-left: 27px;
+}
+@media (max-width: 991.98px) {
+  .vehicles-block-style2 .inner-box .car-detail {
+    padding-left: 15px;
+  }
+}
+.vehicles-block-style2 .inner-box .car-name {
+  position: relative;
+  color: var(--headings-color);
+  font-size: 32px;
+  margin-bottom: 2px;
+  text-transform: uppercase;
+}
+.vehicles-block-style2 .inner-box .car-name a:hover, .vehicles-block-style2 .inner-box .car-name a:focus {
+  color: var(--theme-color1);
+}
+.vehicles-block-style2 .inner-box .cat {
+  position: relative;
+  color: var(--headings-color);
+  font-family: var(--body-font-family);
+  margin-top: -4px;
+  font-size: 16px;
+  letter-spacing: 0.12em;
+  margin-bottom: 20px;
+  list-style: none;
+  text-transform: uppercase;
+}
+.vehicles-block-style2 .inner-box .cat li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 8px;
+}
+.vehicles-block-style2 .inner-box .cat li a:hover, .vehicles-block-style2 .inner-box .cat li a:focus {
+  color: #fff;
+}
+.vehicles-block-style2 .inner-box .cat li:last-child span {
+  display: none;
+}
+.vehicles-block-style2 .inner-box .feature-list {
+  position: relative;
+  margin-bottom: 16px;
+}
+.vehicles-block-style2 .inner-box .feature-list li {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 30px;
+  margin-bottom: 2px;
+  color: var(--headings-color);
+  transition: all 300ms ease;
+}
+@media (max-width: 575.98px) {
+  .vehicles-block-style2 .inner-box .feature-list li {
+    padding: 8px 15px;
+  }
+}
+.vehicles-block-style2 .inner-box .feature-list li:nth-child(odd) {
+  background: #f3f3f3;
+}
+body.tm-dark-layout .vehicles-block-style2 .inner-box .feature-list li:nth-child(odd) {
+  background: #1d1d1d;
+}
+.vehicles-block-style2 .inner-box .feature-list li .price {
+  position: relative;
+  font-weight: 700;
+  width: 105px;
+  text-align: left;
+  padding-left: 30px;
+}
+.vehicles-block-style2 .inner-box .btn-box {
+  position: relative;
+  margin: 0 auto;
+}
+.vehicles-block-style2 .inner-box .theme-btn {
+  margin-top: 15px;
+  width: 100%;
+  padding: 17px 30px 12px;
+  position: relative;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  overflow: hidden;
+  color: var(--headings-color);
+  border: 2px solid var(--theme-color1);
+  background-color: var(--theme-color-white);
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  white-space: nowrap;
+  transition: all 300ms ease;
+}
+.vehicles-block-style2 .inner-box .theme-btn .btn-title {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  z-index: 1;
+}
+.vehicles-block-style2 .inner-box .theme-btn:hover:before {
+  width: 100%;
+  left: 0;
+  background: #fff;
+}
+.vehicles-block-style2 .inner-box .theme-btn:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 100%;
+  background: var(--theme-color-white);
+  transition: all 300ms ease;
+}

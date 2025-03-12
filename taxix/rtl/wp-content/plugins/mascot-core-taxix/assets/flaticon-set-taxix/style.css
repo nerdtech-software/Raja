@@ -1,0 +1,199 @@
+@font-face {
+  font-family: "flaticon-taxix";
+  src: url("fonts/flaticon-set-taxixcaf6.ttf?0b522d3465efa65725f965e81994ed46") format("truetype"),
+url("fonts/flaticon-set-taxixcaf6.woff?0b522d3465efa65725f965e81994ed46") format("woff"),
+url("fonts/flaticon-set-taxixcaf6.woff2?0b522d3465efa65725f965e81994ed46") format("woff2"),
+url("fonts/flaticon-set-taxixcaf6.eot?0b522d3465efa65725f965e81994ed46#iefix") format("embedded-opentype"),
+url("fonts/flaticon-set-taxixcaf6.svg?0b522d3465efa65725f965e81994ed46#flaticon_yacht") format("svg");
+}
+
+i[class^="flaticon-taxix-"]:before, i[class*="flaticon-taxix-"]:before {
+  font-family: flaticon-taxix !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.flaticon-taxix-connected-car:before {
+  content: "\f101";
+}
+
+.flaticon-taxix-destination:before {
+  content: "\f102";
+}
+
+.flaticon-taxix-location:before {
+  content: "\f103";
+}
+
+.flaticon-taxix-taxi:before {
+  content: "\f104";
+}
+
+.flaticon-taxix-mobile-app:before {
+  content: "\f105";
+}
+
+.flaticon-taxix-taxi-1:before {
+  content: "\f106";
+}
+
+.flaticon-taxix-taxi-2:before {
+  content: "\f107";
+}
+
+.flaticon-taxix-booking:before {
+  content: "\f108";
+}
+
+.flaticon-taxix-taxi-3:before {
+  content: "\f109";
+}
+
+.flaticon-taxix-car-service:before {
+  content: "\f10a";
+}
+
+.flaticon-taxix-mobile-app-1:before {
+  content: "\f10b";
+}
+
+.flaticon-taxix-mobile-app-2:before {
+  content: "\f10c";
+}
+
+.flaticon-taxix-location-1:before {
+  content: "\f10d";
+}
+
+.flaticon-taxix-app:before {
+  content: "\f10e";
+}
+
+.flaticon-taxix-app-1:before {
+  content: "\f10f";
+}
+
+.flaticon-taxix-taxi-4:before {
+  content: "\f110";
+}
+
+.flaticon-taxix-app-2:before {
+  content: "\f111";
+}
+
+.flaticon-taxix-taxi-app:before {
+  content: "\f112";
+}
+
+.flaticon-taxix-mobile-app-3:before {
+  content: "\f113";
+}
+
+.flaticon-taxix-transportation:before {
+  content: "\f114";
+}
+
+.flaticon-taxix-taxi-5:before {
+  content: "\f115";
+}
+
+.flaticon-taxix-mobile-app-4:before {
+  content: "\f116";
+}
+
+.flaticon-taxix-mobile-app-5:before {
+  content: "\f117";
+}
+
+.flaticon-taxix-mobile-app-6:before {
+  content: "\f118";
+}
+
+.flaticon-taxix-taxi-6:before {
+  content: "\f119";
+}
+
+.flaticon-taxix-route:before {
+  content: "\f11a";
+}
+
+.flaticon-taxix-location-2:before {
+  content: "\f11b";
+}
+
+.flaticon-taxix-route-1:before {
+  content: "\f11c";
+}
+
+.flaticon-taxix-car-service-1:before {
+  content: "\f11d";
+}
+
+.flaticon-taxix-taxi-7:before {
+  content: "\f11e";
+}
+
+.flaticon-taxix-taxi-8:before {
+  content: "\f11f";
+}
+
+.flaticon-taxix-taxi-9:before {
+  content: "\f120";
+}
+
+.flaticon-taxix-check-circle:before {
+  content: "\f121";
+}
+
+.flaticon-taxix-accept:before {
+  content: "\f122";
+}
+
+.flaticon-taxix-driver:before {
+  content: "\f123";
+}
+
+.flaticon-taxix-driver-1:before {
+  content: "\f124";
+}
+
+.flaticon-taxix-driver-2:before {
+  content: "\f125";
+}
+
+.flaticon-taxix-taxi-driver:before {
+  content: "\f126";
+}
+
+.flaticon-taxix-driver-3:before {
+  content: "\f127";
+}
+
+.flaticon-taxix-price-tag:before {
+  content: "\f128";
+}
+
+.flaticon-taxix-search:before {
+  content: "\f129";
+}
+
+.flaticon-taxix-searching:before {
+  content: "\f12a";
+}
+
+.flaticon-taxix-search-1:before {
+  content: "\f12b";
+}
+
+.flaticon-taxix-clock:before {
+  content: "\f12c";
+}
+
+.flaticon-taxix-stop-watch:before {
+  content: "\f12d";
+}

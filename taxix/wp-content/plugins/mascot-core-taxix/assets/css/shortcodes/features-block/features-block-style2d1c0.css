@@ -1,0 +1,92 @@
+.tm-sc-features .icon {
+  display: inline-block;
+}
+.tm-sc-features .icon,
+.tm-sc-features .features-title,
+.tm-sc-features .features-details {
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.feature-side-line {
+  position: relative;
+}
+.feature-side-line .icon-box-wrapper:after {
+  content: "";
+  background: #333;
+  width: 2px;
+  position: absolute;
+  left: 25px;
+  top: 60px;
+  bottom: -12px;
+}
+@media (max-width: 575.98px) {
+  .feature-side-line .icon-box-wrapper:after {
+    display: none;
+  }
+}
+
+.features-block-style2 {
+  margin-bottom: 65px;
+}
+@media (max-width: 767.98px) {
+  .features-block-style2 {
+    margin-bottom: 30px;
+  }
+}
+.features-block-style2 .inner-box {
+  position: relative;
+}
+@media (max-width: 575.98px) {
+  .features-block-style2 .inner-box {
+    text-align: center;
+  }
+}
+.features-block-style2 .inner-box:hover .icon:after {
+  left: 0px;
+  width: 55px;
+}
+.features-block-style2 .inner-box .icon-check {
+  position: relative;
+  margin-right: 15px;
+}
+.features-block-style2 .inner-box .icon {
+  color: var(--text-color-bg-theme-color1);
+  display: inline-block;
+  position: relative;
+  line-height: 1;
+  font-size: 54px;
+  margin-bottom: 15px;
+  transition: all 300ms ease;
+}
+body.tm-dark-layout .features-block-style2 .inner-box .icon {
+  color: #fff;
+}
+.features-block-style2 .inner-box .icon:after {
+  background-color: rgb(76, 8, 8);
+  content: "";
+  width: 20px;
+  height: calc(100% + 10px);
+  left: 34px;
+  position: absolute;
+  top: -5px;
+  -webkit-transform: skewX(-14deg);
+  -moz-transform: skewX(-14deg);
+  -ms-transform: skewX(-14deg);
+  transform: skewX(-14deg);
+  z-index: -1;
+  transition: all 300ms ease;
+}
+.features-block-style2 .inner-box .features-title {
+  position: relative;
+  margin-bottom: 10px;
+}
+.features-block-style2 .inner-box .features-details {
+  position: relative;
+  margin-bottom: 0;
+}
+@media (max-width: 575.98px) {
+  .features-block-style2 .inner-box .features-details {
+    margin: 0 auto;
+  }
+}
