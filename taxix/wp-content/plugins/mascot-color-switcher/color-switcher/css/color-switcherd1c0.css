@@ -306,6 +306,7 @@
     background-color: #fff;
     box-shadow: 0 6px 12px rgba(0,0,0,.25);
     z-index: 99999;
+	display: none;
 
     border: 1px solid green;
     border-right: 0;
@@ -315,6 +316,7 @@
     position: relative;
     width: 45px;
     height: 50px;
+	display: none;
     line-height: 50px;
     text-align: center;
 }
@@ -322,6 +324,7 @@
     display: inline-block;
     vertical-align: middle;
     color: #79BB51;
+	display: none;
     width: 23px;
 }
 .tm-floating-box-icon>span {
@@ -330,6 +333,7 @@
     right: 100%;
     top: 0;
     width: 100px;
+	display: none;
     background-color: #fff;
     box-shadow: 0 6px 12px rgba(0,0,0,.25);
     opacity: 0;
@@ -345,6 +349,7 @@
     opacity: 1;
     visibility: visible;
     -webkit-transform: translateX(0);
+	display: none;
     transform: translateX(0);
 }
 @-webkit-keyframes rotatingIcon /* Safari and Chrome */ {
