@@ -70,7 +70,7 @@ body.tm-dark-layout .service-block-style1 .inner-box:hover:before {
   left: 0;
   bottom: 0;
   border-radius: 50%;
-  border: 1px solid var(--theme-color1);
+  border: 1px #fcb900;
 }
 .service-block-style1 .inner-box .image-box:after {
   content: "";
